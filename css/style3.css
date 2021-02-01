@@ -93,6 +93,7 @@
   .map > h2 {
     position: inherit;
     top: 50%; left: 50%;
+    text-align: center;
 
   }
   .map > .mapin {
@@ -118,11 +119,11 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  
+
   #main_footer .sns img{
     margin-left: 13px;
     margin-right: 13px;
-    width: 60px; height: 40px;
+    width: 50px;
   }
   
   #main_footer .tel {
