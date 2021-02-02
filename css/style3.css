@@ -40,11 +40,11 @@
   #main_header > h1 {
     padding-top: 10px;
   }
-  
+
   #main_header > h1 img {
-    position: absolute;
-    right: 170px;
-    top: 1px;
+    position: fixed;
+    right: 150px;
+    top: 3px;
     height: 60px;
   }
   
@@ -57,6 +57,7 @@
       background: none;
       border: none;
     }
+
   #main_header .btn_toggle  > img {
     height: 30px;
 }
@@ -93,6 +94,11 @@
     font-weight: 500;
   }
 
+  #gnb > ul > li:hover {
+    outline: 1px solid blue;
+  }
+  
+
   .map > h2 {
     position: inherit;
     top: 50%; left: 50%;
@@ -102,12 +108,13 @@
   .map > .mapin {
     position: absolute;
     top: 105px;
-    color: #ccc;
+    color: white;
     left: 48%;
     text-align: center;
     box-sizing: border-box;
     margin: 0 auto;
   }
+
   .mt {
     text-align: center;
     padding: 50px;
@@ -135,6 +142,7 @@
     margin-top: 18px;
     margin-bottom: 18px;
   }
+
   #main_footer .tel a {
     color: #fff;
   }
