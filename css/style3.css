@@ -50,10 +50,13 @@
   
   #main_header > .btn_toggle {
     position: absolute;
-    left: 20px; top: 20px;
-    background: none;
-    border: none;
-  }
+    left: 20px;
+    top: 20px;
+      width: 30px;
+      height: 30px;
+      background: none;
+      border: none;
+    }
   #main_header .btn_toggle  > img {
     height: 30px;
 }
