@@ -42,7 +42,7 @@ h2 {
 }
 
 #main_header > h1 img {
-  position: fixed;
+  position: absolute;
   right: 150px;
   top: 3px;
   height: 60px;
