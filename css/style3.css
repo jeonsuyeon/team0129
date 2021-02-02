@@ -43,7 +43,7 @@
 
   #main_header > h1 img {
     position: absolute;
-    right: 150px;
+    left: 40%;
     top: 3px;
     height: 60px;
   }
