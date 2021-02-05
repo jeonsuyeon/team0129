@@ -1,3 +1,4 @@
+/*로케이션_MAP_*/
 $(function(){
     // 메인메뉴 열기
     $('.btn_toggle').on('click',function(){
